@@ -1,0 +1,43 @@
+/* hola soy un comentario*/
+
+/*alinear los elementos de la página
+text-align sirve para alinear tanto 
+los textos como las imagenes*/
+body{
+	text-align: center;	
+}
+
+.cuadrado-color{
+	/*background-color: yellow;   color en inglés*/
+	/*background-color: #0040FF;  color hexadecimal*/
+	background-color: rgb(86, 102, 161); /* colores rgb*/
+	padding-bottom: 20px; /*dar espacio*/
+
+}
+/*cambiar color de textos*/
+p{
+	color: #333333;
+}
+/*cambiar tipografía*/
+h1{
+	font-family: 'Lobster';
+}
+
+/*img{
+	width: 400px; ancho de imagen
+	height: 400px; alto de imagen
+}
+*/
+/* cambiando tamaño de 1 foto*/
+.foto-grupo{
+	width: 400px; 
+	height: 400px; 
+}
+
+/* hacer el separador*/
+.enlaces{
+	border-top: 1px dashed blue;
+	/* buscar types border css */
+}
+
+
